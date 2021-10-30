@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #424242;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+video,
+h1,
+button {
+  margin: 2rem auto;
+}
+
+button {
+  background: #4db848;
+  color: inherit;
+  height: 2.5rem;
+  padding: 0 3rem;
+  font-size: 21px;
+  border-radius: 12px;
+  border: none;
+}
